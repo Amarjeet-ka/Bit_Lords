@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import Navigation from '../components/navbar/Navbar'
+import Cource from '../components/cource/Cource'
 
-export default function Cources() {
+
+
+export default function Courses() {
   return (
-    <div>Cources</div>
+    <Fragment>
+        <Navigation/>
+      <Cource/>
+    </Fragment>
   )
 }
