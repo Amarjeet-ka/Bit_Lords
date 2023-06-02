@@ -31,7 +31,7 @@ export default function Header() {
       <Row>
         <Col />
         <Col md={6} style={{ textAlign: "center" }}>
-          <h1 className="head-font">We Rank the Best Courses on the Web</h1>
+          <h1 className="head-font">Collaboration of multiple features in single environment.</h1>
           <h3 className="head-small-font">
             Get all the tools you need to build and grow at same place in order
             to access quality education.We work with the community to address
@@ -39,7 +39,7 @@ export default function Header() {
             opportunity to shine.
           </h3>
           <h2 className="head-cor">Top Courses</h2>
-          <h2 className="head-cor">Top Courses</h2>
+         
         </Col>
         <Col />
       </Row>
