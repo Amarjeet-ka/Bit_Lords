@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { Fragment } from "react";
+import API from "../components/API";
+import Navigation from "../components/navbar/Navbar";
+
 
 export default function Community() {
   return (
-    <div>Community</div>
-  )
+    <Fragment>
+    <Navigation/>
+       <API/>
+    
+    </Fragment>
+  );
 }

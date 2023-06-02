@@ -8,7 +8,7 @@ import Personal from './pages/Personal';
 import Resourse from './pages/Resourse';
 import Tutorials from './pages/Tutorials';
 import Cources from './pages/Cources';
-
+import Roompage from './components/room/Index';
 function App() {
   return (
   <BrowserRouter>
@@ -22,6 +22,7 @@ function App() {
     <Route path="/resource" element={<Resourse/>} />
     <Route path="/tutorials" element={<Tutorials/>} />
     <Route path="/course" element={<Cources/>} />
+    <Route path="/room/:roomId"  element={<Roompage/>} />
   </Routes>
   </BrowserRouter>
   );
