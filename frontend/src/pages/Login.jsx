@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import Logs from '../components/logs/Logs'
 
 export default function Login() {
   return (
-    <div>Login</div>
+    <Fragment>
+      <Logs/>
+    </Fragment>
   )
 }
