@@ -33,7 +33,10 @@ export default function Header() {
         <Col md={6} style={{ textAlign: "center" }}>
           <h1 className="head-font">We Rank the Best Courses on the Web</h1>
           <h3 className="head-small-font">
-           Get all the tools you need to build and grow at same place in order to access quality education.We work with the community to address the barriers to a quality education for all students and giving opportunity to shine.
+            Get all the tools you need to build and grow at same place in order
+            to access quality education.We work with the community to address
+            the barriers to a quality education for all students and giving
+            opportunity to shine.
           </h3>
           <h2 className="head-cor">Top Courses</h2>
           <h2 className="head-cor">Top Courses</h2>
