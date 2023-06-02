@@ -30,11 +30,10 @@ export default function Header() {
     <Container fluid style={containerStyle}>
       <Row>
         <Col />
-        <Col md={6} style={{textAlign:'center'}} >
+        <Col md={6} style={{ textAlign: "center" }}>
           <h1 className="head-font">We Rank the Best Courses on the Web</h1>
           <h3 className="head-small-font">
-            In the history of modern astronomy, there is probably no one greater
-            leap forward than the building and launch of the space telescope.
+           Get all the tools you need to build and grow at same place in order to access quality education.We work with the community to address the barriers to a quality education for all students and giving opportunity to shine.
           </h3>
           <h2 className="head-cor">Top Courses</h2>
           <h2 className="head-cor">Top Courses</h2>
