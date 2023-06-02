@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import w from '../assets/wll.jpg';
+import w from '../components/assets/wll.jpg'
 import './Homegrid.css'
 
 const Homegrid = () => {
