@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 import Navigation from '../components/navbar/Navbar'
 import Header from '../components/header/Header'
-import Homegrid from '../homegrid/Homegrid'
 
 export default function Homepage() {
   return (  
@@ -9,7 +8,6 @@ export default function Homepage() {
 <Navigation/>
  
  <Header/>
- <Homegrid/>
  </Fragment>
 
 )
