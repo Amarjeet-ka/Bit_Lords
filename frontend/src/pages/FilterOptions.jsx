@@ -4,23 +4,14 @@ import { Form, Button, Row, Col } from "react-bootstrap";
 import "./FilterOptions.css"; // Import custom CSS file for styling
 
 const FilterOptions = () => {
-  const [branches, setBranches] = useState([]);
+  const [branches, setBranches] = useState(["EC", "CSE", "Mech", "Agriculture"]);
   const [filteredData, setFilteredData] = useState([]);
 
   const [selectedBranch, setSelectedBranch] = useState("");
   const [selectedAge, setSelectedAge] = useState("");
   const [selectedInterest, setSelectedInterest] = useState("");
 
-  // Fetch branches data from API
-  useEffect(() => {
-    axios.get("https://api.example.com/branches")
-      .then(response => {
-        setBranches(response.data);
-      })
-      .catch(error => {
-        console.error("Error fetching branches:", error);
-      });
-  }, []);
+  const interests = ["AI", "ML", "Cyber Security", "Data Science", "Web Development"];
 
   // Filter data based on selected options
   useEffect(() => {
@@ -60,8 +51,8 @@ const FilterOptions = () => {
               >
                 <option value="">All</option>
                 {branches.map(branch => (
-                  <option key={branch.id} value={branch.id}>
-                    {branch.name}
+                  <option key={branch} value={branch}>
+                    {branch}
                   </option>
                 ))}
               </Form.Control>
@@ -81,11 +72,18 @@ const FilterOptions = () => {
             <Form.Group controlId="interest">
               <Form.Label>Interest</Form.Label>
               <Form.Control
-                type="text"
+                as="select"
                 value={selectedInterest}
                 onChange={event => setSelectedInterest(event.target.value)}
-              />
-            </Form.Group>
+              >
+                <option value="">All</option>
+                {interests.map(interest => (
+                  <option key={interest} value={interest}>
+                    {interest}
+                  </option>
+                ))}
+              </Form.Control>
+            </Form.Group>   
           </Col>
         </Row>
         <Button variant="primary" style={{marginLeft:'40%',marginTop:'10%'}} href="/homepage" type="submit">

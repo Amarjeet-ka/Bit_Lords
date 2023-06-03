@@ -11,6 +11,7 @@ import Cources from './pages/Cources';
 import Roompage from './components/room/Index';
 import VideoUpload from './pages/VedioUpload';
 import FilterOptions from './pages/FilterOptions';
+import Contact from './components/contact/Contact';
 function App() {
   return (
   <BrowserRouter>
@@ -27,6 +28,7 @@ function App() {
     <Route path="/course" element={<Cources/>} />
     <Route path="/room/:roomId"  element={<Roompage/>} />
     <Route path="/vedioapi" element={<VideoUpload/>}  />
+    <Route path="/contact" element={<Contact/>} />
   </Routes>
   </BrowserRouter>
   );

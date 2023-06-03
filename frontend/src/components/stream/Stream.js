@@ -10,7 +10,7 @@ export default function Stream() {
     <Container style={{ backgroundColor: "#f1f9ff", padding: "8%" }} fluid>
       <Row>
         <Col md={6} style={{ textAlign: "center", marginTop: "80px" }}>
-          <h1 className="font-h1">This is Why We have Solid Idea</h1>
+          <h1 className="font-h1">Get Your dream cources with Collaboration form differtent prestigious Organisation</h1>
           <h4 className="font-h4">
             In today’s virtual world, the internet is one’s ultimate guidebook.
             Be it learning a skill or finding a job, you can find everything on

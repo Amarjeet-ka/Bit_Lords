@@ -38,7 +38,7 @@ export default function Header() {
             the barriers to a quality education for all students and giving
             opportunity to shine.
           </h3>
-          <h2 className="head-cor">Top Courses</h2>
+          <h2 className="head-cor">Get Top Courses</h2>
          
         </Col>
         <Col />

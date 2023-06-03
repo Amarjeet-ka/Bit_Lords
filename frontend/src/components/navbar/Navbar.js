@@ -20,7 +20,7 @@ function Navigation() {
           <Nav>
             <Nav.Link className="links-side" href="#deets">About</Nav.Link>
           
-            <Nav.Link className="links-side"  eventKey={2} href="#memes">
+            <Nav.Link className="links-side"  eventKey={2} href="/contact">
               Contact us
             </Nav.Link>
           </Nav>
