@@ -9,11 +9,14 @@ import Resourse from './pages/Resourse';
 import Tutorials from './pages/Tutorials';
 import Cources from './pages/Cources';
 import Roompage from './components/room/Index';
+import VideoUpload from './pages/VedioUpload';
+import FilterOptions from './pages/FilterOptions';
 function App() {
   return (
   <BrowserRouter>
   <Routes>
-    <Route path="/home" element={<Homepage/>} />
+    <Route path="/homepage" element={<Homepage/>} />
+    <Route path="/home" element={<FilterOptions/>} />
     <Route path="/" element={<Login/>} />
     <Route path="/community" element={<Community/>} />
     <Route path="/skills" element={<Skill/>} />
@@ -23,6 +26,7 @@ function App() {
     <Route path="/tutorials" element={<Tutorials/>} />
     <Route path="/course" element={<Cources/>} />
     <Route path="/room/:roomId"  element={<Roompage/>} />
+    <Route path="/vedioapi" element={<VideoUpload/>}  />
   </Routes>
   </BrowserRouter>
   );

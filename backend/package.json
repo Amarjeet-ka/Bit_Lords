@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "dev" : "nodemon server.js"
+    "dev": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,9 +15,13 @@
     "body": "^5.1.0",
     "cors": "^2.8.5",
     "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "gridfs-stream": "^1.1.1",
+    "mongodb": "^5.6.0",
     "mongoose": "^7.2.2",
     "multer": "^1.4.5-lts.1",
     "multer-gridfs": "^0.0.1",
-    "parser": "^0.1.4"
+    "parser": "^0.1.4",
+    "uuid": "^9.0.0"
   }
 }
