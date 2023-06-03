@@ -88,8 +88,8 @@ const FilterOptions = () => {
             </Form.Group>
           </Col>
         </Row>
-        <Button variant="primary" href="/homepage" type="submit">
-          Apply Filters
+        <Button variant="primary" style={{marginLeft:'40%',marginTop:'10%'}} href="/homepage" type="submit">
+          Proceed
         </Button>
       </Form>
       {/* Render filtered data */}
