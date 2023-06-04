@@ -52,6 +52,8 @@ const Career = () => {
   return (
     <>
       <div>
+    <h1 style={{textAlign:'center',marginTop:'2%'}}>JobSearch</h1>
+
       <div style={{ marginTop:'10%',marginLeft:'20%',display: 'flex', alignItems: 'center' }}>
   <label htmlFor="filter" style={{ marginRight: '10px' }}>Filter:</label>
   <input type="text" id="filter" name="filter" value={filter} onChange={handleFilterChange} style={{ padding: '5px' }} />
